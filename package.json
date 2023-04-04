@@ -29,7 +29,7 @@
     "turbo": "^1.8.8"
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm lint-staged"
+    "pre-commit": "pnpm exec lint-staged"
   },
   "lint-staged": {
     "*": "eslint --fix"
