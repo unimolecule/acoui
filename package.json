@@ -1,0 +1,37 @@
+{
+  "name": "acoui",
+  "version": "0.0.0",
+  "packageManager": "pnpm@8.1.0",
+  "description": "",
+  "license": "MIT",
+  "keywords": [],
+  "scripts": {
+    "preinstall": "simple-git-hooks",
+    "commit": "git add . && cz",
+    "changeset": "changeset",
+    "changeset:version": "changeset version",
+    "publish": "changeset publish"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.38.4",
+    "@changesets/cli": "^2.26.1",
+    "@commitlint/cli": "^17.5.1",
+    "@commitlint/config-conventional": "^17.4.4",
+    "cz-git": "^1.6.1",
+    "eslint": "^8.37.0",
+    "lint-staged": "^13.2.0",
+    "simple-git-hooks": "^2.8.1",
+    "turbo": "^1.8.8"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
+  }
+}
