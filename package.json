@@ -6,6 +6,7 @@
   "license": "MIT",
   "keywords": [],
   "scripts": {
+    "dev": "turbo run dev --no-cache --continue",
     "preinstall": "simple-git-hooks",
     "commit": "git add . && cz",
     "changeset": "changeset",
@@ -29,7 +30,7 @@
     "turbo": "^1.8.8"
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm lint-staged"
+    "pre-commit": "pnpm exec lint-staged"
   },
   "lint-staged": {
     "*": "eslint --fix"
