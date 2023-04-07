@@ -1,11 +1,10 @@
 {
-  "name": "components",
-  "version": "1.0.0",
-  "description": "",
-  "author": "",
-  "license": "ISC",
+  "name": "@aco/headless",
+  "version": "0.0.0",
+  "description": "all headless components are settled here",
+  "license": "MIT",
   "keywords": [],
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
