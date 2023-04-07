@@ -1,9 +1,8 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 import { HButton } from '@aco/headless'
-import { AcoButton } from '@aco/ui'
 </script>
 
 <template>
+  123
   <HButton />
-  <AcoButton />
 </template>

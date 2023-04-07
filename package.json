@@ -11,7 +11,8 @@
     "commit": "git add . && cz",
     "changeset": "changeset",
     "changeset:version": "changeset version",
-    "publish": "changeset publish"
+    "publish": "changeset publish",
+    "lint": "eslint --fix"
   },
   "config": {
     "commitizen": {
@@ -23,6 +24,7 @@
   },
   "dependencies": {
     "@aco/headless": "workspace:^",
+    "@aco/ui": "workspace:^",
     "@aco/utils": "workspace:^"
   },
   "devDependencies": {

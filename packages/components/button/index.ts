@@ -1,6 +1,6 @@
 import { withInstall } from '@aco/utils'
 import Button from './src/button.vue'
 
-export const AButton = withInstall(Button)
+export const HButton = withInstall(Button)
 
-export default AButton
+export default HButton

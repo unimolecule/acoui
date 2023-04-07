@@ -7,6 +7,9 @@ importers:
       '@aco/headless':
         specifier: workspace:^
         version: link:packages/components
+      '@aco/ui':
+        specifier: workspace:^
+        version: link:packages/aco-plus
       '@aco/utils':
         specifier: workspace:^
         version: link:packages/utils
