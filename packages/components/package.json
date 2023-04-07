@@ -5,6 +5,7 @@
   "license": "MIT",
   "keywords": [],
   "main": "index.ts",
+  "module": "index.ts",
   "peerDependencies": {
     "vue": "^3.2.47"
   }

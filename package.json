@@ -18,6 +18,13 @@
       "path": "node_modules/cz-git"
     }
   },
+  "peerDependencies": {
+    "vue": "^3.2.47"
+  },
+  "dependencies": {
+    "@aco/headless": "workspace:^",
+    "@aco/utils": "workspace:^"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.4",
     "@changesets/cli": "^2.26.1",
@@ -30,12 +37,12 @@
     "simple-git-hooks": "^2.8.1",
     "turbo": "^1.8.8",
     "typescript": "^4.9.3",
-    "vue": "^3.2.47"
+    "vue-tsc": "^1.2.0"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm exec lint-staged"
   },
   "lint-staged": {
-    "*": "eslint --fix"
+    "*.{vue,js,ts,jsx,tsx,md,json}": "eslint --fix"
   }
 }
