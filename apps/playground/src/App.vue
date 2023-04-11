@@ -7,10 +7,27 @@ import Card from './components/Card.vue'
 <template>
   <div class="flex justify-around">
     <Card title="headless">
-      <HButton />
+      <!-- basic -->
+      <HButton>test</HButton>
     </Card>
     <Card title="plus">
-      <AcoButton />
+      <!-- basic -->
+      <!-- 1. type: 'default'| 'primary'| 'secondary'| 'accent'| 'ghost' -->
+      <AcoButton type="default">
+        default
+      </AcoButton>
+      <AcoButton type="primary">
+        primary
+      </AcoButton>
+      <AcoButton type="secondary">
+        secondary
+      </AcoButton>
+      <AcoButton type="accent">
+        accent
+      </AcoButton>
+      <AcoButton type="ghost">
+        ghost
+      </AcoButton>
     </Card>
   </div>
 </template>
