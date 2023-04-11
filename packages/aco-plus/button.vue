@@ -4,5 +4,8 @@ import { HButton } from '@aco/headless'
 
 <template>
   123
+  <button class="c-yellow">
+    123
+  </button>
   <HButton />
 </template>
